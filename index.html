@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIT - Shoban Institute of Technology</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header / Navbar -->
+    <header class="bg-blue-900 text-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-3">
+                <div class="bg-yellow-500 text-blue-900 font-bold px-3 py-1 rounded shadow text-xl">SIT</div>
+                <div>
+                    <h1 class="text-lg font-bold tracking-wide">SHOBAN INSTITUTE OF TECHNOLOGY</h1>
+                    <p class="text-xs text-yellow-400 italic">Shape Your Skills, Build Your Future</p>
+                </div>
+            </div>
+            <nav class="hidden md:flex space-x-6 font-medium">
+                <a href="#home" class="hover:text-yellow-400 transition">Home</a>
+                <a href="#courses" class="hover:text-yellow-400 transition">Courses</a>
+                <a href="#instructors" class="hover:text-yellow-400 transition">Instructors</a>
+                <a href="#success" class="hover:text-yellow-400 transition">Success Stories</a>
+                <a href="#register" class="hover:text-yellow-400 transition">Online Admission</a>
+                <a href="#contact" class="hover:text-yellow-400 transition">Contact</a>
+            </nav>
+            <a href="#register" class="bg-yellow-500 text-blue-900 font-semibold px-4 py-2 rounded-lg shadow hover:bg-yellow-400 transition">Apply Now</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="bg-gradient-to-r from-blue-900 to-indigo-900 text-white py-20 text-center px-6">
+        <div class="container mx-auto max-w-3xl">
+            <h2 class="text-4xl md:text-5xl font-extrabold mb-4">Your Success is Our Mission!</h2>
+            <p class="text-lg text-gray-200 mb-8">Master cutting-edge technologies with expert instruction at SIT Jamshoro. Join our professional training programs today.</p>
+            <div class="space-x-4">
+                <a href="#register" class="bg-yellow-500 text-blue-900 font-bold px-6 py-3 rounded-lg shadow-lg hover:bg-yellow-400 transition">Register For Admission</a>
+                <a href="#courses" class="bg-transparent border-2 border-white text-white font-bold px-6 py-3 rounded-lg hover:bg-white hover:text-blue-900 transition">View Courses</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="py-16 container mx-auto px-6">
+        <div class="text-center mb-12">
+            <h3 class="text-3xl font-bold text-blue-900">Featured Courses</h3>
+            <p class="text-gray-600 mt-2">Choose from our industry-leading technology programs</p>
+        </div>
+        <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            <!-- Java Course -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-blue-900">
+                <div class="text-blue-900 text-3xl mb-4"><i class="fa-brands fa-java"></i></div>
+                <h4 class="text-xl font-bold mb-2">Java Programming</h4>
+                <p class="text-gray-600 mb-4 text-sm">Learn core to advanced Java programming, OOP principles, and database connectivity for enterprise apps.</p>
+                <a href="#register" class="text-blue-900 font-semibold text-sm hover:underline">Enroll in Java &rarr;</a>
+            </div>
+            <!-- Python AI Course -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-yellow-500">
+                <div class="text-yellow-600 text-3xl mb-4"><i class="fa-brands fa-python"></i></div>
+                <h4 class="text-xl font-bold mb-2">Python AI & Advanced Python</h4>
+                <p class="text-gray-600 mb-4 text-sm">Dive into Advanced Python, data science basics, automation tools, and AI libraries like NumPy and Pandas.</p>
+                <a href="#register" class="text-blue-900 font-semibold text-sm hover:underline">Enroll in Python AI &rarr;</a>
+            </div>
+            <!-- Networking Programming -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-blue-900">
+                <div class="text-blue-900 text-3xl mb-4"><i class="fa-solid fa-network-wired"></i></div>
+                <h4 class="text-xl font-bold mb-2">Networking Programming</h4>
+                <p class="text-gray-600 mb-4 text-sm">Master network architectures, protocols, socket programming, and secure communication systems.</p>
+                <a href="#register" class="text-blue-900 font-semibold text-sm hover:underline">Enroll in Networking &rarr;</a>
+            </div>
+            <!-- Database Programming -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-yellow-500">
+                <div class="text-yellow-600 text-3xl mb-4"><i class="fa-solid fa-database"></i></div>
+                <h4 class="text-xl font-bold mb-2">Database Programming</h4>
+                <p class="text-gray-600 mb-4 text-sm">Learn relational databases, SQL queries, database design, optimization, and backend data management.</p>
+                <a href="#register" class="text-blue-900 font-semibold text-sm hover:underline">Enroll in Database &rarr;</a>
+            </div>
+            <!-- CIT Course -->
+            <div class="bg-white p-6 rounded-xl shadow-md border-t-4 border-blue-900 md:col-span-2 lg:col-span-2">
+                <div class="text-blue-900 text-3xl mb-4"><i class="fa-solid fa-laptop-code"></i></div>
+                <h4 class="text-xl font-bold mb-2">CIT (Certificate in Information Technology)</h4>
+                <p class="text-gray-600 mb-4 text-sm">Comprehensive computer course covering essential IT skills, office automation, computer fundamentals, and practical tech training.</p>
+                <a href="#register" class="text-blue-900 font-semibold text-sm hover:underline">Enroll in CIT Course &rarr;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Instructors & Teaching Section -->
+    <section id="instructors" class="py-16 bg-gray-100 px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12">
+                <span class="bg-blue-100 text-blue-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Expert Leadership</span>
+                <h3 class="text-3xl font-extrabold text-blue-900 mt-2">Our Instructor & Teaching Environment</h3>
+                <p class="text-gray-600 mt-1">Learn directly from experienced software engineers and educators.</p>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <!-- Lead Instructor Profile Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-200 text-center md:text-left flex flex-col md:flex-row items-center space-y-4 md:space-y-0 md:space-x-6">
+                    <div class="relative">
+                        <img src="mypic.jpg" alt="Lead Instructor" class="w-32 h-32 rounded-full object-cover border-4 border-yellow-500 shadow-md">
+                        <span class="absolute bottom-0 right-0 bg-blue-900 text-white p-2 rounded-full text-xs shadow"><i class="fa-solid fa-code"></i></span>
+                    </div>
+                    <div>
+                        <h4 class="text-2xl font-bold text-blue-900">Shoban Ali Khushk</h4>
+                        <p class="text-sm font-semibold text-yellow-600 mb-2">Founder & Lead Software Instructor</p>
+                        <p class="text-xs text-gray-600 mb-4">Full-stack developer and tech instructor dedicated to empowering students with practical programming, Java, Python AI, and modern web engineering skills.</p>
+                        <div class="flex flex-wrap justify-center md:justify-start gap-2 text-blue-900">
+                            <span class="bg-blue-50 px-3 py-1 rounded text-xs font-medium border">Java Full Stack engineer</span>
+                            <span class="bg-blue-50 px-3 py-1 rounded text-xs font-medium border">Python & AI</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Teaching Session / Classroom Action Card -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-200">
+                    <div class="relative overflow-hidden rounded-xl shadow mb-4">
+                        <img src="PC5.jpeg" alt="Classroom Teaching" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                        <div class="absolute top-2 right-2 bg-yellow-500 text-blue-900 text-xs font-bold px-2 py-1 rounded">Live Practical Classes</div>
+                    </div>
+                    <h4 class="text-xl font-bold text-blue-900 mb-1">Interactive Lab & Code Training</h4>
+                    <p class="text-xs text-gray-600">We focus on hands-on coding sessions, real-world project development, and interactive problem-solving to ensure every student builds true industry competence.</p>
+                </div>
+              
+                <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-200">
+                    <div class="relative overflow-hidden rounded-xl shadow mb-4">
+                        <img src="students_Certi.jpeg" alt="Certificate Distribution Ceremony" class="w-full h-48 object-cover hover:scale-105 transition duration-300">
+                        <div class="absolute top-2 right-2 bg-yellow-500 text-blue-900 text-xs font-bold px-2 py-1 rounded">Certificate Distribution</div>
+                    </div>
+                    <h4 class="text-xl font-bold text-blue-900 mb-1">Student Success & Certificate Ceremony</h4>
+                    <p class="text-xs text-gray-600">Celebrating our hardworking students upon successful completion of their professional courses and training programs.</p>
+                </div>
+            
+                <!-- Tech Seminar / Presentation Card (PC6.jpeg) -->
+                <div class="bg-white p-6 rounded-2xl shadow-xl border border-gray-200 flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden rounded-xl shadow mb-4">
+                            <img src="PC6.jpeg" alt="Tech Seminar and Training Session" class="w-full h-40 object-cover hover:scale-105 transition duration-300">
+                            <span class="absolute top-2 right-2 bg-yellow-500 text-blue-900 text-[10px] font-bold px-2 py-1 rounded">Live Seminar</span>
+                        </div>
+                        <h4 class="text-lg font-bold text-blue-900 mb-1">Tech Skills & Career Seminars</h4>
+                        <p class="text-xs text-gray-600">Conducting high-impact technical sessions, career guidance workshops, and interactive tech talks for aspiring software engineers.</p>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </section>
+
+    <!-- Student Success Stories & Reviews Section (Including Bushra's Achievement) -->
+    <section id="success" class="py-16 bg-white px-6">
+        <div class="container mx-auto max-w-6xl">
+            <div class="text-center mb-12">
+                <span class="bg-yellow-100 text-yellow-800 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Our Pride & Achievements</span>
+                <h3 class="text-3xl font-extrabold text-blue-900 mt-2">Student Success Stories</h3>
+                <p class="text-gray-600 mt-1">Real achievements and feedback from students excelling in competitions and professional careers.</p>
+            </div>
+
+            <!-- Reviews Grid -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Bushra's Review & Achievement -->
+                <div class="bg-gradient-to-br from-blue-50 to-indigo-50 p-6 rounded-2xl shadow-md border-2 border-yellow-400 relative flex flex-col justify-between">
+                    <div>
+                        <div class="flex justify-between items-center mb-3">
+                            <div class="text-yellow-500 text-sm">
+                                <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                            </div>
+                            <span class="bg-yellow-400 text-blue-900 text-[10px] font-bold px-2 py-0.5 rounded-full">3rd Position</span>
+                        </div>
+                        <p class="text-gray-700 text-xs italic mb-4">"Alhamdulillah! I secured 3rd position solo in the TechArena'26 DSA Sprint competition. Training under NAVTTC Advanced Python at Mehran University with Shoban Sir was an amazing experience!"</p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-3 border-t border-blue-200">
+                        <div class="bg-blue-900 text-yellow-400 font-bold w-9 h-9 rounded-full flex items-center justify-center text-xs">B</div>
+                        <div>
+                            <h5 class="font-bold text-blue-900 text-xs">Bushra</h5>
+                            <p class="text-[10px] text-gray-500">MUET, NAVTTC Advanced Python</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 2 -->
+                <div class="bg-blue-50 p-6 rounded-2xl shadow-md border border-blue-100 flex flex-col justify-between">
+                    <div>
+                        <div class="text-yellow-500 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-xs italic mb-4">"Maine SIT se Java Programming ka course kiya. Shoban sir ka padhane ka tareeqa itna behtareen hai ke ab main khud apne projects bana raha hoon. Highly recommended!"</p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-3 border-t border-gray-200">
+                        <div class="bg-blue-900 text-yellow-400 font-bold w-9 h-9 rounded-full flex items-center justify-center text-xs">AA</div>
+                        <div>
+                            <h5 class="font-bold text-blue-900 text-xs">Ahmed Ali</h5>
+                            <p class="text-[10px] text-gray-500">Java Developer Graduate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 3 -->
+                <div class="bg-blue-50 p-6 rounded-2xl shadow-md border border-blue-100 flex flex-col justify-between">
+                    <div>
+                        <div class="text-yellow-500 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-xs italic mb-4">"Python AI course ne meri coding ki duniya badal di. Practical classes aur live environment ki wajah se bohot kuch seekhne ko mila. Certificate milne par bohat khushi hui!"</p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-3 border-t border-gray-200">
+                        <div class="bg-blue-900 text-yellow-400 font-bold w-9 h-9 rounded-full flex items-center justify-center text-xs">SK</div>
+                        <div>
+                            <h5 class="font-bold text-blue-900 text-xs">Sana Khan</h5>
+                            <p class="text-[10px] text-gray-500">Python AI Graduate</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Review 4 -->
+                <div class="bg-blue-50 p-6 rounded-2xl shadow-md border border-blue-100 flex flex-col justify-between">
+                    <div>
+                        <div class="text-yellow-500 text-sm mb-3">
+                            <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-xs italic mb-4">"Jamshoro mein aisi professional training academy milna mushkil hai. CIT course se meri computer skills bilkul professional ho gayi hain. Thank you SIT team!"</p>
+                    </div>
+                    <div class="flex items-center space-x-3 pt-3 border-t border-gray-200">
+                        <div class="bg-blue-900 text-yellow-400 font-bold w-9 h-9 rounded-full flex items-center justify-center text-xs">MR</div>
+                        <div>
+                            <h5 class="font-bold text-blue-900 text-xs">Muhammad Rizwan</h5>
+                            <p class="text-[10px] text-gray-500">CIT Course Graduate</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Online Admission Form Section -->
+    <section id="register" class="py-16 bg-blue-50 px-6">
+        <div class="container mx-auto max-w-3xl bg-white p-8 md:p-12 rounded-2xl shadow-xl border border-blue-100">
+            <div class="text-center mb-8">
+                <span class="bg-blue-100 text-blue-900 text-xs font-bold px-3 py-1 rounded-full uppercase tracking-wider">Official Portal</span>
+                <h3 class="text-3xl font-extrabold text-blue-900 mt-2">SIT Online Admission Form</h3>
+                <p class="text-gray-500 text-sm mt-1">Fill out your details, select courses, submit fee, and register.</p>
+            </div>
+
+            <!-- Formspree Connected Form -->
+            <form action="https://formspree.io/f/xqpkynbb" method="POST" class="space-y-6">
+                <!-- Section 1: Personal Details -->
+                <div>
+                    <h4 class="text-lg font-bold text-blue-900 border-b pb-2 mb-4"><i class="fa-solid fa-user mr-2"></i> 1. Personal Details</h4>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Full Name (as per documents)</label>
+                            <input type="text" name="FullName" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="e.g. Ali Ahmed">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Father's Name</label>
+                            <input type="text" name="FathersName" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="e.g. Muhammad Khan">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Date of Birth (DD/MM/YYYY)</label>
+                            <input type="text" name="DateOfBirth" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="DD/MM/YYYY">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Gender</label>
+                            <select name="Gender" class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none">
+                                <option>Male</option>
+                                <option>Female</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">CNIC / B-Form Number</label>
+                            <input type="text" name="CNIC" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="41301-XXXXXXX-X">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Nationality & Religion</label>
+                            <input type="text" name="NationalityReligion" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="Pakistani / Islam">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 2: Contact Information -->
+                <div>
+                    <h4 class="text-lg font-bold text-blue-900 border-b pb-2 mb-4"><i class="fa-solid fa-address-book mr-2"></i> 2. Contact Information</h4>
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Mobile Number</label>
+                            <input type="tel" name="MobileNumber" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="03XXXXXXXXX">
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">WhatsApp Number</label>
+                            <input type="tel" name="WhatsAppNumber" class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="03XXXXXXXXX">
+                        </div>
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-medium text-gray-700">Email Address</label>
+                            <input type="email" name="Email" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="student@gmail.com">
+                        </div>
+                        <div class="md:col-span-2">
+                            <label class="block text-sm font-medium text-gray-700">Current Address</label>
+                            <input type="text" name="Address" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none" placeholder="House/Street, City">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Section 3: Course Selection -->
+                <div>
+                    <h4 class="text-lg font-bold text-blue-900 border-b pb-2 mb-4"><i class="fa-solid fa-book-open mr-2"></i> 3. Course Selection (Select one or more)</h4>
+                    <div class="grid md:grid-cols-2 gap-4 mb-4">
+                        <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-gray-50">
+                            <input type="checkbox" name="Course_Java" value="Java Programming" class="w-5 h-5 text-blue-900 rounded">
+                            <span class="font-medium text-sm">Java Programming</span>
+                        </label>
+                        <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-gray-50">
+                            <input type="checkbox" name="Course_Python" value="Python AI" class="w-5 h-5 text-blue-900 rounded">
+                            <span class="font-medium text-sm">Python AI & Advanced Python</span>
+                        </label>
+                        <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-gray-50">
+                            <input type="checkbox" name="Course_Networking" value="Networking Programming" class="w-5 h-5 text-blue-900 rounded">
+                            <span class="font-medium text-sm">Networking Programming</span>
+                        </label>
+                        <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-gray-50">
+                            <input type="checkbox" name="Course_Database" value="Database Programming" class="w-5 h-5 text-blue-900 rounded">
+                            <span class="font-medium text-sm">Database Programming</span>
+                        </label>
+                        <label class="flex items-center space-x-3 cursor-pointer p-2 border rounded-lg hover:bg-gray-50 md:col-span-2">
+                            <input type="checkbox" name="Course_CIT" value="CIT Course" class="w-5 h-5 text-blue-900 rounded">
+                            <span class="font-medium text-sm">CIT (Certificate in Information Technology)</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label class="block text-sm font-medium text-gray-700">Preferred Batch Timing</label>
+                        <input type="text" name="BatchTiming" readonly value="6:00 PM - 8:00 PM" class="mt-1 w-full p-3 border bg-gray-100 rounded-lg text-gray-600">
+                    </div>
+                </div>
+
+                <!-- Section 4: Online Payment & Agreement -->
+                <div class="bg-amber-50 p-6 rounded-xl border border-amber-200">
+                    <h4 class="text-lg font-bold text-blue-900 border-b border-amber-200 pb-2 mb-4"><i class="fa-solid fa-credit-card mr-2"></i> 4. Online Fee Payment Details</h4>
+                    <p class="text-xs text-gray-600 mb-4">Please transfer your course fee to our official account (EasyPaisa/JazzCash: <strong>03193983025</strong>) before submitting this form, and enter your Transaction ID below.</p>
+                    
+                    <div class="grid md:grid-cols-2 gap-4">
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Payment Method</label>
+                            <select name="PaymentMethod" class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none bg-white">
+                                <option>EasyPaisa</option>
+                                <option>JazzCash</option>
+                                <option>Bank Transfer</option>
+                                <option>Cash (Direct at Academy)</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block text-sm font-medium text-gray-700">Transaction ID / Reference No.</label>
+                            <input type="text" name="TransactionID" required class="mt-1 w-full p-3 border rounded-lg focus:ring-2 focus:ring-blue-900 outline-none bg-white" placeholder="Enter Trx ID / E.g. 84920193">
+                        </div>
+                    </div>
+
+                    <div class="flex items-start space-x-3 mt-4">
+                        <input type="checkbox" required class="mt-1 w-5 h-5 text-blue-900 rounded">
+                        <p class="text-sm text-gray-600">I hereby declare that the information and fee transaction details provided are true and correct. I agree to abide by the rules and regulations of SIT.</p>
+                    </div>
+                </div>
+
+                <!-- Submit Button -->
+                <button type="submit" class="w-full bg-blue-900 text-white font-bold py-4 rounded-xl shadow-lg hover:bg-blue-800 transition text-lg">
+                    Submit Registration & Payment
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact" class="bg-blue-950 text-white py-12 px-6">
+        <div class="container mx-auto grid md:grid-cols-3 gap-8 text-center md:text-left">
+            <div>
+                <h3 class="text-xl font-bold mb-3 text-yellow-400">SIT - Shoban Institute of Technology</h3>
+                <p class="text-sm text-gray-300">Empowering the youth with modern programming and AI skills. Your Success is Our Mission!</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-3 text-yellow-400">Contact Us</h4>
+                <p class="text-sm text-gray-300 mb-2"><i class="fa-solid fa-phone mr-2"></i> 03429611939</p>
+                <p class="text-sm text-gray-300 mb-2"><i class="fa-brands fa-whatsapp mr-2"></i> 03429611939</p>
+                <p class="text-sm text-gray-300"><i class="fa-solid fa-envelope mr-2"></i> shobankhushk9@gmail.com</p>
+            </div>
+            <div>
+                <h4 class="text-lg font-semibold mb-3 text-yellow-400">Location</h4>
+                <p class="text-sm text-gray-300"><i class="fa-solid fa-location-dot mr-2"></i> A-121 Phase 2, Sindh University Society, Jamshoro, Allan Fakeer chowk</p>
+            </div>
+        </div>
+        <div class="border-t border-blue-900 mt-8 pt-6 text-center text-xs text-gray-400">
+            &copy; 2026 Shoban Institute of Technology (SIT). All Rights Reserved.
+        </div>
+    </footer>
+    
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/923429611939?text=Hello%20SIT%20Team,%20I%20want%20to%20get%20information%20about%20courses." 
+       target="_blank" 
+       class="fixed bottom-6 right-6 z-50 bg-green-500 text-white p-4 rounded-full shadow-2xl hover:bg-green-600 transition-all duration-300 flex items-center justify-center text-3xl hover:scale-110 animate-bounce">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+</body>
+</html>
